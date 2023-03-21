@@ -3,3 +3,13 @@
     // width: 200vw;
     // height: 200vh;
 }
+.infoBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.infoLeft{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}

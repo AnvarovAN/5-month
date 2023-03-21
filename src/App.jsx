@@ -34,7 +34,11 @@ function App() {
          name={menu.map((item)=>
           (<p className="barName">{item.name}</p>))}
          />
+         <div className="main-right">
+
         <ProductInfo/>
+        <Product/>
+         </div>
       </main>
 
     </div>
