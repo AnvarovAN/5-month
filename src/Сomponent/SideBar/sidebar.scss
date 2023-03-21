@@ -1,0 +1,36 @@
+.main__hero{
+    // background: #000;
+    margin-left: 20px;
+    border: 1px solid #000;
+    width: 400px;
+    height: 100vh;
+}
+.main__hero__btns{
+    display: flex;
+    gap: 10px;
+    // height: 100vh;
+}
+.main__hero__barIcon{
+    // background: #fff;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+.main__hero__barName{
+    margin-top: 13px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    // justify-content: space-between;
+    // align-items: center;
+
+}
+.main__barIcon{
+    height: 48px;
+    width: 48px;
+}
+.barName{
+    font-size: 28px;
+}
