@@ -1,13 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Skeleton from "./Skeleton"
-import { StyledEngineProvider } from '@mui/material/styles';
+import App from './App'
+import FetchContextProvider from './Context/FetchContext'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <StyledEngineProvider injectFirst>
-      <Skeleton />
-    </StyledEngineProvider>
-  </React.StrictMode>,
+    <FetchContextProvider>
+      <App/>
+    </FetchContextProvider>
+  </React.StrictMode>
 )

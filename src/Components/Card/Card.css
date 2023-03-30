@@ -1,0 +1,31 @@
+.card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
+.card{
+    width: 300px;
+    padding: 15px;
+    border-radius: 10px;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    row-gap: 1rem;
+
+}
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.img
+{
+
+    width: 100%;
+}
+.card-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 10px;
+}
