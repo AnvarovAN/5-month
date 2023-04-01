@@ -1,17 +1,15 @@
-import React from 'react'
 import "./App.css"
-import Vite from "../public/vite.svg"
-import react from "./assets/react.svg"
- 
+import Dashboard from "./components/Dashboard" 
+import Example from "./components/Header"
+import Hero from "./components/Hero"
  const App = () => {
    return (
-     <div>
-        <div className="logo">
-        <img className='logo' src={Vite} alt="" />
-        +
-        <img className='logo' src={react} alt="" />
-        </div>
-     </div>
+    <div className="container mx-auto">
+    <h2 className="text-red-400">Welcome</h2>
+    <Example/>
+    <Hero/>
+    <Dashboard/>
+    </div>
    )
  }
  
